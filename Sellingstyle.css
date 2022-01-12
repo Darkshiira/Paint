@@ -1,0 +1,157 @@
+body {
+  margin: 0;
+  Font-family:"Raleway", sans-serif;
+}
+
+h1 {
+  display: inline;
+}
+
+/******************Top******************/
+#top {
+  background-color: #A6CF98;
+}
+
+.imgglasspaint {
+  padding: 4% 0 0 6%;
+  border-style: outset;
+  background-color: #557C55;
+  border-color: #A6CF98;
+}
+
+.glasspaint {
+  width: 10%;
+  transform:rotate(-2deg);
+  margin-bottom: 0;
+}
+
+.title {
+  font-size: 200%;
+  text-align: center;
+  padding-right: 100px;
+}
+
+.sitetitle {
+  font-family: "Nanum brush script", cursive;
+  text-shadow: 2px 2px #32502E;
+  color: #557C55;
+}
+
+.imgtitle {
+  position: absolute;
+  margin: 0;
+  Right: 0;
+  top: 15px;
+}
+
+.potimage {}
+
+nav {
+  margin:0;
+  text-align: center;
+  height: 50px;
+  width: 250px;
+  background-color: #A6CF98;
+
+}
+
+.navimg {
+  padding: 0 1%;
+  background-color: #557C55;
+}
+/******************Information*********************/
+.informations {
+  padding-top: 100px;
+}
+.me {
+  float:left;
+  padding-left: 150px;
+}
+.information {
+  background-color: white;
+  display:inline;
+  width:30%;
+  float:right;
+  padding-right: 700px;
+
+
+}
+.informationhead {
+  font-family: "Nanum brush script", cursive;
+  text-align:left;
+  font-size:300%;
+}
+.informationp {
+text-align:justify;
+line-height: 1.5;
+
+}
+
+
+/******************Midcontainer*********************/
+#midcontainer {
+  background-color:#A6CF98;
+  margin-top: 300px;
+height: 400px;
+}
+
+.card-deck {
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  padding-left:200px;
+}
+.imgwhaticando {
+  Width: 200px;
+  Height: 200px;
+}
+
+.card
+{box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+width: 200px;
+height:300px;
+text-align:center;}
+
+/******************Pricing*********************/
+#pricing
+
+.priceimg {   Width: 200px;
+  Height: 200px;}
+.pricingtitle {
+text-align:center;
+padding-right:558px;
+margin: 2% 0;
+}
+
+.prices {  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;}
+
+
+
+/******************Contact*********************/
+#contact {
+  background-color: #A6CF98;
+  Height: 300px;
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.contact.p {
+padding-top: 40px;
+}
+.contactimg { width: 50%;}
+
+.comment { padding-top: 5%;
+
+}
+
+.email {
+
+}
+
+/******************Footer*********************/
+#footer {
+
+}
